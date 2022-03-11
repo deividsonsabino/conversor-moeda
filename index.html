@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Document</title>
+</head>
+
+<body onload="getCurrency()">
+    <div class="container">
+        <main>
+            <div>
+                <div>
+                    <h2>Conversor de Moedas</h2>
+                    <p>Faça grátis sua conversão instantânea de moedas internacionais</p>
+                    <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg" class="page-logo" alt="logo" />
+                </div>
+                <div class="text-info">
+                    <div>
+                        <p>Descubra o valor do real brasileiro em outras moedas</p>
+                        <p>valores atualizem em: <b><span id="date"></span></b></p>
+
+                    </div>
+                </div>
+                <div class="currency">
+                    <div class="card">
+                        <h3 id="BTCBRL-code"></h3>
+                        <span class="sm-text" id="BTCBRL-name"></span>
+                        <h4 id="BTCBRL-value"></h4>
+                    </div>
+                    <div class="card">
+                        <h3 id="EURBRL-code"></h3>
+                        <span class="sm-text" id="EURBRL-name"></span>
+                        <h4 id="EURBRL-value"></h4>
+                    </div>
+                    <div class="card">
+                        <h3 id="USDBRL-code"></h3>
+                        <span class="sm-text" id="USDBRL-name"></span>
+                        <h4 id="USDBRL-value"></h4>
+                    </div>
+                </div>
+
+                <div class="calc">
+                    <h4>Informe o valor que deseja calcular</h4>
+                    <input id="actualValue" type="number" placeholder="Valor em Real Brasileiro" />
+                    <select id="select-currency" class="select-currency">
+                        <option value="dolar">Dólar Americano</option>
+                        <option value="bitcoin">Bitcoin</option>
+                        <option value="euro">Euro</option>
+                    </select>
+                    <button type="button" onClick="convertCurrency()">Calcular</button>
+                    <div id="result">
+                        <span class="result" id="convertValue"></span>
+                    </div>
+                </div>
+                <div class="me">
+                    <div>
+                        <img class="footer-image" src="https://github.com/deividsonsabino.png" />
+                    </div>
+                    <div class="text-content">
+                        <p class="sm-text">Deividson Sabino - Programador Frontend.</p>
+                        <p class="sm-text">Graduado em Sistemas de Informação</p>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+</body>
+<script src="./app.js">
+</script>
+
+</html>

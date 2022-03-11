@@ -1,0 +1,120 @@
+html,
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #181d32;
+    color: #fff;
+}
+
+p {
+    margin: 0;
+}
+
+input,
+select {
+    height: 32px;
+    margin: 0 5px;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+}
+
+button {
+    width: 130px;
+    height: 34px;
+    background: #ff5d70;
+    color: #f1f1f1;
+    decoration: none;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+option {
+    height: 35px;
+    padding: 5px;
+    margin: 5px;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 1044px;
+    margin: 0 auto;
+}
+
+.sm-text {
+    font-size: 11px;
+}
+
+.page-logo {
+    margin: 10px 0px;
+    width: 150px
+}
+
+.text-info {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 10px;
+}
+
+.currency {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    text-align: center;
+    background-image: linear-gradient(to bottom, #252e4a, #252e4b, #191d32);
+    border-radius: 8px;
+    padding: 2px;
+    margin: 2px;
+    width: 100%;
+}
+
+.select-currency {
+    border-radius: 5px;
+    width: 200px;
+    height: 34px
+}
+
+.calc {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.result-style {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border: 1px solid #51d2b2;
+    border-radius: 8px;
+    padding: 5px
+}
+
+.footer-image {
+    border-radius: 15%;
+    width: 50px;
+}
+
+.me {
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around
+}
+
+.text-content {
+    margin-left: 20px;
+}
